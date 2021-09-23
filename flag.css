@@ -1,18 +1,20 @@
-* {text-align: center; font-family: 'Ubuntu', sans-serif;}
-body {background: #212F3D;}
 
+body {
+  background-color: darkslategray;
+  text-align: center;
+}
+/* bayragimizin geneli burada yer aliyor, buraya kirmizi rengi verdik. */
 .flag {
-  background-color: #E11A27;
+  background-color: #e11a27;
   margin: auto;
   height: 600px;
   width: 600px;
   overflow: hidden;
-  border-radius: 5px;
-}
+  }
+/* iki tane birbirini kesen beyaz divimiz var  */
 .white {
   position: absolute;
   background-color: white;
-  display: block;
 }
 .vertical {
   margin-top: 75px;
